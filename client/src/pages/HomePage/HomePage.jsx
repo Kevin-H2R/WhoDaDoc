@@ -1,5 +1,13 @@
+import { PageContainer } from "../../components/PageLayout";
+import SearchForm from "../../features/SearchForm/SearchForm";
+
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <PageContainer>
+      <h1>Hello, Tell me where it hurts</h1>
+      <SearchForm />
+    </PageContainer>
+  );
 };
 
 export default HomePage;
